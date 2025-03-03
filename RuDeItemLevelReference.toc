@@ -1,0 +1,11 @@
+## Interface: 100207
+## Title: RuDeItemLevelReference
+## Notes: A gearing guide for The War Within expansion.
+## Author: RuDeVagabond
+## Version: 1.0
+## X-Email: rudevagabond@gmail.com
+## License: MIT
+## SavedVariables: RuDeItemLevelReferenceDB
+
+Data.lua
+RuDeItemLevelReference.lua
