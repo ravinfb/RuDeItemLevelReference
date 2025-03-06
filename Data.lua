@@ -1,35 +1,5 @@
 local addonName, addonTable = ...
 
---[[]addonTable.gearilvltrack = {
-    { "Item Level", "Upgrade Crests", "Upgrade Tracks" },
-    { 597, "", "Explorer 1/8" },
-    { 600, "", "Explorer 2/8" },
-    { 603, "", "Explorer 3/8" },
-    { 606, "", "Explorer 4/8" },
-    { 610, "", "Explorer 5/8 or Adventurer 1/8" },
-    { 613, "", "Explorer 6/8 or Adventurer 2/8" },
-    { 616, "", "Explorer 7/8 or Adventurer 3/8" },
-    { 619, "", "Explorer 8/8 or Adventurer 4/8" },
-    { 623, "Weathered", "Adventurer 5/8 or Veteran 1/8" },
-    { 626, "Weathered", "Adventurer 6/8 or Veteran 2/8" },
-    { 629, "Weathered", "Adventurer 7/8 or Veteran 3/8" },
-    { 632, "Weathered", "Adventurer 8/8 or Veteran 4/8" },
-    { 636, "Carved", "Veteran 5/8 or Champion 1/8" },
-    { 639, "Carved", "Veteran 6/8 or Champion 2/8" },
-    { 642, "Carved", "Veteran 7/8 or Champion 3/8" },
-    { 645, "Carved", "Veteran 8/8 or Champion 4/8" },
-    { 649, "Runed", "Champion 5/8 or Hero 1/6" },
-    { 652, "Runed", "Champion 6/8 or Hero 2/6" },
-    { 655, "Runed", "Champion 7/8 or Hero 3/6" },
-    { 658, "Runed", "Champion 8/8 or Hero 4/6" },
-    { 662, "Gilded", "Hero 5/6 or Myth 1/6" },
-    { 665, "Gilded", "Hero 6/6 or Myth 2/6" },
-    { 668, "Gilded", "Myth 3/6" },
-    { 672, "Gilded", "Myth 4/6" },
-    { 675, "Gilded", "Myth 5/6" },
-    { 678, "Gilded", "Myth 6/6" }
-}--]]
-
 addonTable.gearilvltrack = {
     { "Item Level", "Upgrade Crests", "Explorer", "Adventurer", "Veteran", "Champion", "Hero", "Myth" },
     { 597, "", "Explorer 1", "", "", "", "", "" },
@@ -88,18 +58,18 @@ addonTable.crafting = {
     { 5, 629, 636, 658, 675 }
 }
 addonTable.bountifuldelveloot = {
-    { "Tier", "Loot", "Vault", "Crest Drops" },
-    { 1, 600, 623, "Weathered" },
-    { 2, 603, 626, "Weathered" },
-    { 3, 610, 629, "Weathered" },
-    { 4, 616, 632, "Weathered" },
-    { 5, 623, 639, "Weathered" },
-    { 6, 626, 645, "Carved" },
-    { 7, 626, 645, "Carved" },
-    { 8, 639, 649, "Carved" },
-    { 9, 639, 649, "Runed" },
-    { 10, 639, 649, "Runed" },
-    { 11, 639, 649, "Gilded" }
+    { "Tier", "Bountiful Delves", "Delver's Bounty", "Vault", "Crest Drops" },
+    { 1, 610, 0, 623, "Weathered" },
+    { 2, 613, 0,623, "Weathered" },
+    { 3, 616, 0,626, "Weathered" },
+    { 4, 619, 626, 636, "Weathered / Carved" },
+    { 5, 623, 632, 642, "Weathered / Carved" },
+    { 6, 626, 639, 645, "Carved / Runed" },
+    { 7, 636, 645, 649, "Carved / Runed" },
+    { 8, 639, 649, 649, "Carved" },
+    { 9, 639, 649, 649, "Runed / Gilded" },
+    { 10, 639,649 ,649, "Runed / Gilded" },
+    { 11, 639,649 ,649, "Runed / Gilded" }
 }
 addonTable.raidlou = {
     { "Difficulty", "Bosses", "Loot", "Crest Drops", "Drops" },
