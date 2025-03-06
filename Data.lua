@@ -66,7 +66,7 @@ addonTable.bountifuldelveloot = {
     { 5, 623, 632, 642, "Weathered / Carved" },
     { 6, 626, 639, 645, "Carved / Runed" },
     { 7, 636, 645, 649, "Carved / Runed" },
-    { 8, 639, 649, 649, "Carved" },
+    { 8, 639, 649, 649, "Carved / Runed" },
     { 9, 639, 649, 649, "Runed / Gilded" },
     { 10, 639,649 ,649, "Runed / Gilded" },
     { 11, 639,649 ,649, "Runed / Gilded" }
