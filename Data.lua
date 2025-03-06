@@ -29,11 +29,7 @@ addonTable.gearilvltrack = {
     { 675, "Gilded", "", "", "", "", "", "Myth 5" },
     { 678, "Gilded", "", "", "", "", "", "Myth 6" }
 }
-addonTable.bountifuldelveloot = {
-    { "Tier", "Loot", "Vault", "Crest Drops" },
-    { "1", "600", "623", "Weathered" },
-    { "2", "603", "626", "Weathered" }
-}
+
 addonTable.dungeonloot = {
     { "Level", "Loot", "Vault", "Crest Drops" },
     { "Mythic", 636, 645, "15 Carved" },
