@@ -22,7 +22,7 @@ frame:Hide()
 -- Create the title for the frame
 local frameTitle = frame:CreateFontString(nil, "OVERLAY", "GameFontHighlightLarge")
 frameTitle:SetPoint("CENTER", frame, "TOP", 0, -12) -- Position at the top of the frame
-frameTitle:SetText("RuDeItemLevelReference") -- Set the title text
+frameTitle:SetText("RuDe's Item Level Reference") -- Set the title text
 frameTitle:Show() -- Make sure the title is visible
 
 -- Tabs & Data from Data.lua
