@@ -38,7 +38,7 @@ addonTable.dungeonloot = {
     { "Mythic +4", 642, 652, "14 Runed" },
     { "Mythic +5", 645, 652, "16 Runed" },
     { "Mythic +6", 649, 655, "18 Runed" },
-    { "Mythic +7", 649, 655, "10 Gilded" },
+    { "Mythic +7", 649, 658, "10 Gilded" },
     { "Mythic +8", 652, 658, "12 Gilded" },
     { "Mythic +9", 652, 658, "14 Gilded" },
     { "Mythic +10", 655, 662, "16 Gilded" },
