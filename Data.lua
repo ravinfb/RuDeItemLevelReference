@@ -24,14 +24,17 @@ addonTable.gearilvltrack = {
     { 658, "Runed", "", "", "", "Champion 8", "Hero 4", "" },
     { 662, "Gilded", "", "", "", "", "Hero 5", "Myth 1" },
     { 665, "Gilded", "", "", "", "", "Hero 6", "Myth 2" },
-    { 668, "Gilded", "", "", "", "", "", "Myth 3" },
-    { 672, "Gilded", "", "", "", "", "", "Myth 4" },
+    { 668, "Gilded", "", "", "", "", "Hero 7", "Myth 3" },
+    { 672, "Gilded", "", "", "", "", "Hero 8", "Myth 4" },
     { 675, "Gilded", "", "", "", "", "", "Myth 5" },
-    { 678, "Gilded", "", "", "", "", "", "Myth 6" }
+    { 678, "Gilded", "", "", "", "", "", "Myth 6" },
+    { 681, "Gilded", "", "", "", "", "", "Myth 7" },
+    { 684, "Gilded", "", "", "", "", "", "Myth 8" }
 }
 
 addonTable.dungeonloot = {
     { "Level", "Loot", "Vault", "Crest Drops" },
+    { "Heroic", 619, 632, "10 Weathered" },
     { "Mythic", 636, 645, "15 Carved" },
     { "Mythic +2", 639, 649, "10 Runed" },
     { "Mythic +3", 639, 649, "12 Runed" },
